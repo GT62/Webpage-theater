@@ -28,3 +28,18 @@ body{
 .navbar li{
     float: left;
 }
+
+header{
+    text-align:center;
+    background-color: hsl(0, 79%, 28%);
+    padding: 1px;
+    margin: 0px;
+    color:white;
+    height:50px; 
+}
+
+header h2{
+    padding: 0px;
+    text-align: left;
+    
+}
