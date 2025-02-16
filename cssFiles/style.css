@@ -1,5 +1,30 @@
-.button{
-    border-color: rgb(29, 35, 41);
-    background-color: aliceblue;
-    color: rgb(0, 0, 0);
+body{
+    margin: 0px;
+}
+.navbar{
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 75%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 75%, 20%);
+}
+
+.navbar li{
+    float: left;
 }
